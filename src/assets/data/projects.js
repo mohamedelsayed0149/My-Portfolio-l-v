@@ -7,7 +7,7 @@ import near_deal from '../images/near_deal.png';
 import Travel from '../images/travel.png';
 import Movie from '../images/movie.png';
 import Facebook from '../images/facebook.png';
-import Epic from '../images/epic.png';
+import Tasty from '../images/tasty_.png';
 
 
 const projects = [
@@ -77,11 +77,11 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Epic Company',
+    name: 'Tasty App',
     desc:
-      'I was responsible for developing the front end using (React - ES6) for this website which has a lot of education\'s services.',
-    img: Epic,
-    link : 'https://github.com/mohamedelsayed0149/Nav-Bar-React'
+      'I was responsible for developing all components using (HTML - CSS - JS) for this website which has a online food ordering services like otlob.',
+    img: Tasty,
+    link : 'https://separate-beds.surge.sh'
   }
   
 ];

@@ -127,11 +127,11 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: 'https://www.facebook.com/profile.php?id=100005172515468',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/mohamed_m_el_sayed17.9.98',
               },
               {
                 title: 'Github',

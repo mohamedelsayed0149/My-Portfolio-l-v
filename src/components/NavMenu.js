@@ -13,7 +13,7 @@ const NavStyles = styled.nav`
   background: var(--dark-bg);
   border : 1px solid #111;
   ul {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     width: 90%;
     text-align: center;
@@ -39,7 +39,7 @@ const NavStyles = styled.nav`
   }
   .mobile-menu-icon {
     position: absolute;
-    right: 1rem;
+    left: 1rem;
     top: 1rem;
     width: 4rem;
     cursor: pointer;
@@ -69,7 +69,7 @@ const NavStyles = styled.nav`
       max-width: 300px;
       border-radius: 12px;
       position: absolute;
-      right: 1rem;
+      left: 1rem;
       top: var(--top);
       .closeNavIcon {
         display: block;

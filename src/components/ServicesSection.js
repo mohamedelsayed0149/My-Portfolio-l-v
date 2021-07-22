@@ -8,7 +8,7 @@ const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
   .services__allItems {
     display: flex;
-    gap: 10rem;
+    gap: 7rem;
     justify-content: space-between;
     margin-top: 5rem;
   }
@@ -16,8 +16,7 @@ const ServicesItemsStyles = styled.div`
     .services__allItems {
       flex-direction: column;
       max-width: 350px;
-      margin: 0 auto;
-      margin-top: 5rem;
+      margin: 15px auto;
       gap: 5rem;
     }
   }

@@ -104,10 +104,11 @@ const HeroStyles = styled.div`
     .hero__heading {
       top: 7%;
       left: 5%;
+      position: absolute;
       font-size: 1.5rem;
       margin-bottom: -5rem;
       .hero__name {
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
     }
     .hero__img {
@@ -158,7 +159,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
+            <span>Hello, I'm</span>
             <span className="hero__name">Mohamed M El sayed</span>
           </h1>
           <div className="hero__img">

@@ -112,7 +112,6 @@ export default function About() {
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
-
               <AboutInfoItem
                 title="School"
                 items={['Hoda Sharawy language School']}
@@ -131,7 +130,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'ES6' , 'REACT','REDUX']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT','REDUX']}
               />
               <AboutInfoItem
                 title="Design"
