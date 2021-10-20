@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/mohamed_graduation.jpeg';
+import AboutImg from '../assets/images/go_web.jpg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -76,17 +76,18 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About Me"
+            subheading="about my company"
+            heading="Go Web"
           />
           <PText>
             I am a front-end website designer and developer from Alex,
-            Egypt. I create professional websites. I love coding and always
-            try to show unique views to the audience through my design.
+            Egypt. I create professional websites working with my team. I love coding and always
+            try to show unique views to the audience through my design. I launched "go web" at 8 / 8 / 2021 for freelance to work with my team in web & marketing services. 
+            To enlarge your comapny and make a good money , Please visit us !
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
-            <Button btnText="Read More" btnLink="/about" outline />
+            <Button btnText="visit us" btnLink="https://www.facebook.com/mohamed.m.elsayed179" outline />
           </div>
         </div>
         <div className="aboutSection__right">

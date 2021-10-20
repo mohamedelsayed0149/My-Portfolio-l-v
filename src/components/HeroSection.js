@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/mee.jpeg';
+import GoWebImg from '../assets/images/mee.jpeg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -163,13 +163,13 @@ export default function HeroSection() {
             <span className="hero__name">Mohamed M El sayed</span>
           </h1>
           <div className="hero__img">
-            <img src={HeroImg} alt="" />
+            <img src={GoWebImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
               I am working as a Junior UI/UX designer and Front-end Web developer for 2
               years. I love to design and make new web experiences for the
-              people.
+              people. i launched my own company <strong>" Go Web "</strong> for web & marketing services.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>

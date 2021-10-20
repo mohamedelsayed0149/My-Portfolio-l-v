@@ -8,6 +8,9 @@ import Travel from '../images/travel.png';
 import Movie from '../images/movie.png';
 import Facebook from '../images/facebook.png';
 import Tasty from '../images/tasty_.png';
+import Cars from '../images/cars.png';
+import Go_Web from '../images/go_web_proj.png';
+import Delivery from '../images/delivery.png';
 
 
 const projects = [
@@ -37,9 +40,9 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'WhatsApp',
+    name: 'Chat App',
     desc:
-      'Building a whatsapp clone using (React - React chat engine - Firebase) with a real-time group chat and sharing photos and files for social media services',
+      'Building a chat app clone using (React - React chat engine - Firebase) with a real-time group chat and sharing photos and files for social media services',
     img: Whatsapp,
     link : 'https://github.com/mohamedelsayed0149/WhatsApp-Clone'
   },
@@ -81,6 +84,30 @@ const projects = [
     desc:
       'I was responsible for developing all components using (HTML - CSS - JS) for this website which has a online food ordering services like otlob.',
     img: Tasty,
+    link : 'https://separate-beds.surge.sh'
+  },
+  {
+    id: uuidv4(),
+    name: 'Rent A Car',
+    desc:
+    'I was responsible for developing all components using (HTML - CSS - JS) for this website which has a car services for rent and repairs.',
+    img: Cars,
+    link : 'https://separate-beds.surge.sh'
+  },
+  {
+    id: uuidv4(),
+    name: 'Delivery App',
+    desc:
+    'I was responsible for developing all components using (HTML - CSS - JS) for this website which has all delivery services from anywhere to help people connect with each other.',
+    img: Delivery,
+    link : 'https://separate-beds.surge.sh'
+  },
+  {
+    id: uuidv4(),
+    name: 'Go web Company',
+    desc:
+    'I was responsible for developing all components using (React - Styled Components - Swiper) for this company which i own as a freelancer to work with my team in web & marketing services.',
+    img: Go_Web,
     link : 'https://separate-beds.surge.sh'
   }
   

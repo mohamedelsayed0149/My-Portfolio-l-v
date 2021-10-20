@@ -20,7 +20,7 @@ const FooterStyle = styled.div`
     width: 3px;
     height: 100%;
     background-color: var(--gray-1);
-    left: 45rem;
+    left: 46rem;
     top: 50%;
     transform: translate(-50%, -50%);
   }
@@ -53,6 +53,16 @@ const FooterStyle = styled.div`
     .footer__col1 .para {
       max-width: 100%;
     }
+    .footer__col1::after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: var(--gray-1);
+    left: 40rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
     .copyright {
       .container {
         div {
@@ -72,7 +82,7 @@ export default function Footer() {
           <PText>
             A freelance web designer and developer from Alexandria, Egypt.
             I always make websites that have unique designs and also has a good
-            performance rate.
+            performance rate. i own <strong>Go Web</strong> company as a freelancer to work with my team in web & marketing services.
           </PText>
         </div>
         <div className="footer__col2">
@@ -107,8 +117,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+20 01157551041',
-                path: 'tel:+20 01157551041',
+                title: '+20 1157551041',
+                path: 'tel:+20 1157551041',
               },
               {
                 title: 'mohamed11490a@gmail.com',
@@ -141,6 +151,10 @@ export default function Footer() {
                 title: 'Linkedin',
                 path: 'https://www.linkedin.com/in/mohamed-elsayed-0aa24b1b8/',
               },
+              {
+                title: 'Go Web',
+                path: 'https://www.facebook.com/mohamed.m.elsayed179',
+              }
             ]}
           />
         </div>

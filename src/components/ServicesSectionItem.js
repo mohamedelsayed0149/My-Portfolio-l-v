@@ -8,6 +8,9 @@ const ItemStyles = styled.div`
   border : 1px solid var(--gray-1);
   border-radius : 10px; 
   padding : 20px 50px;
+  :hover{
+    background-color: #eee;
+  }
   .servicesItem__icon {
     svg {
       width: 3rem;

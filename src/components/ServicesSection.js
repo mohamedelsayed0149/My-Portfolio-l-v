@@ -46,5 +46,5 @@ export default function ServicesSection() {
         </div>
       </div>
     </ServicesItemsStyles>
-  );
+  );  
 }
